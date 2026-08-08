@@ -1,16 +1,16 @@
 # ✨ Task Manager App
 
-A task management web app built with React — create, complete, and delete tasks with priority levels, all saved automatically in your browser.
+A task management web app built with React - create, complete, and delete tasks with priority levels, all saved automatically in your browser.
 
 ## 👩‍💻 Author
 
 L.L. Piyumi Hansani
 
-Undergraduate – BSc (Hons) Computer Science
+Undergraduate - BSc (Hons) Computer Science
 
 ## 📌 Project Overview
 
-The Task Manager App helps users organize daily tasks with priority levels (Low, Medium, High) and completion tracking. Built as a frontend-focused project to practice React fundamentals — component architecture, state management, and browser-based persistence using localStorage.
+The Task Manager App helps users organize daily tasks with priority levels (Low, Medium, High) and completion tracking. Built as a frontend-focused project to practice React fundamentals - component architecture, state management, and browser-based persistence using localStorage.
 
 ## 📸 Screenshots
 
@@ -25,10 +25,10 @@ The Task Manager App helps users organize daily tasks with priority levels (Low,
 
 ## 🎯 Objectives
 
-- **Add Tasks** — Create tasks with title, description, and priority
-- **Track Progress** — Mark tasks as complete or undo them
-- **Manage Tasks** — Delete tasks no longer needed
-- **Persist Data** — Keep tasks saved across page refreshes without a backend
+- **Add Tasks** - Create tasks with title, description, and priority
+- **Track Progress** - Mark tasks as complete or undo them
+- **Manage Tasks** - Delete tasks no longer needed
+- **Persist Data** - Keep tasks saved across page refreshes without a backend
 
 ## ✨ Features
 
@@ -42,7 +42,7 @@ The Task Manager App helps users organize daily tasks with priority levels (Low,
 
 ## 🛠️ Tech Stack
 
-- **Library:** React (with Hooks — useState, useEffect)
+- **Library:** React (with Hooks - useState, useEffect)
 - **Build Tool:** Vite
 - **Styling:** Custom CSS
 - **Persistence:** Browser localStorage (no backend/database)
