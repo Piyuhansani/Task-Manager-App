@@ -18,10 +18,10 @@ The Task Manager App helps users organize daily tasks with priority levels (Low,
 ![Main View](main.jpeg)
 
 ### 📝 Adding a Task
-![Add Task](screenshots/add.jpeg)
+![Add Task](add.jpeg)
 
 ### ✅ Completed Task
-![Completed Task](screenshots/complete.jpeg)
+![Completed Task](complete.jpeg)
 
 ## 🎯 Objectives
 
