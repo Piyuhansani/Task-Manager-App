@@ -1,97 +1,70 @@
-# ✨ Task Manager App
+# Getting Started with Create React App
 
-A task management web app built with React - create, complete, and delete tasks with priority levels, all saved automatically in your browser.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 👩‍💻 Author
+## Available Scripts
 
-L.L. Piyumi Hansani
+In the project directory, you can run:
 
-Undergraduate - BSc (Hons) Computer Science
+### `npm start`
 
-## 📌 Project Overview
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The Task Manager App helps users organize daily tasks with priority levels (Low, Medium, High) and completion tracking. Built as a frontend-focused project to practice React fundamentals - component architecture, state management, and browser-based persistence using localStorage.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📸 Screenshots
+### `npm test`
 
-### 🏠 Main View
-![Main View](main.jpeg)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 📝 Adding a Task
-![Add Task](add.jpeg)
+### `npm run build`
 
-### ✅ Completed Task
-![Completed Task](complete.jpeg)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🎯 Objectives
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Add Tasks** - Create tasks with title, description, and priority
-- **Track Progress** - Mark tasks as complete or undo them
-- **Manage Tasks** - Delete tasks no longer needed
-- **Persist Data** - Keep tasks saved across page refreshes without a backend
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## ✨ Features
+### `npm run eject`
 
-| Feature | Description |
-|---|---|
-| 📝 Add Task | Create a task with title, description, and priority |
-| ✅ Complete Task | Mark tasks done, with visual strikethrough styling |
-| 🗑️ Delete Task | Remove tasks permanently |
-| 🎨 Priority Colors | Color-coded tags (green/amber/red) for Low/Medium/High |
-| 💾 Auto-Save | Tasks persist in the browser via localStorage |
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🛠️ Tech Stack
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Library:** React (with Hooks - useState, useEffect)
-- **Build Tool:** Vite
-- **Styling:** Custom CSS
-- **Persistence:** Browser localStorage (no backend/database)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## ⚙️ Setup & Installation
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm
+## Learn More
 
-### Steps
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Clone the repository**
-```bash
-git clone https://github.com/your-username/task-manager-app.git
-cd task-manager-app
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**Install dependencies**
-```bash
-npm install
-```
+### Code Splitting
 
-**Run the development server**
-```bash
-npm run dev
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Open the local URL shown in your terminal (usually `http://localhost:5173`) in your browser.
+### Analyzing the Bundle Size
 
-## 📂 Project Structure
-```
-task-manager-app/
-│
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   └── components/
-│       ├── TaskForm.jsx
-│       ├── TaskList.jsx
-│       └── TaskItem.jsx
-│
-├── screenshots/
-│   ├── main-view.png
-│   ├── add-task.png
-│   ├── completed-task.png
-│
-│
-├── public/
-├── package.json
-└── README.md
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
